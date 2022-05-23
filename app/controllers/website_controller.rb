@@ -1,5 +1,6 @@
 class WebsiteController < ApplicationController
   def index
+    render('home')
   end
   def about
   end

@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MySixthApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  </head>
+
+  <body>
+   This is my Header.
 <h1>This is my Index Page.</h1>
+
+    <%= yield %>
+    This is my footer...
+  </body>
+</html>
